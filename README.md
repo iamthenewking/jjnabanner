@@ -85,3 +85,4 @@ Distributed under the MIT License. See `LICENSE` for more information.
 - [ ] Create Cloudinary account for Echobind
 - [ ] Change `cloudName: 'jsjoeio'` to Echobind's cloud name
 - [ ] Upload template image to Echobind's Cloudinary and name it 'eb-template' or change `imagePublicID` in function. Here is the [link to my image to download it](https://res.cloudinary.com/jsjoeio/image/upload/v1578506666/eb-template.jpg)
+# jjnabanner

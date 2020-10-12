@@ -46,20 +46,20 @@ const Home = () => {
       const imageURL = getSharingImage({
         title,
         tagline,
-        cloudName: 'jsjoeio',
-        imagePublicID: 'eb-template',
+        cloudName: 'dqcixruub',
+        imagePublicID: 'social-image_qheplk',
         titleFont: 'Lato',
         taglineFont: 'Lato',
         titleExtraConfig: '_bold',
         imageWidth: 640,
         imageHeight: 335,
         titleBottomOffset: 135,
-        taglineTopOffset: 205,
+        taglineTopOffset: 210,
         textAreaWidth: 389,
         textLeftOffset: 216,
         textColor: 'ffffff',
         titleFontSize: 32,
-        taglineFontSize: 24,
+        taglineFontSize: 20,
       });
 
       setGeneratedImage(imageURL)
@@ -93,11 +93,7 @@ const Home = () => {
         </Head>
 
         <Box marginTop={20}>
-          <Box textAlign="center" my={5}>
-            <Heading as="h1" marginBottom={3}>Echobind's Blog Image Generator</Heading>
-            <Text>Use our template to generate a social media image in no time!</Text>
-          </Box>
-
+        
           <Box display="flex" flexDirection="column" alignItems="center" marginX="auto">
             <FormControl maxWidth={700}>
               <Box display="flex" flexDirection="row" marginTop={2}>
