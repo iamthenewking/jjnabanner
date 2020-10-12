@@ -47,7 +47,7 @@ const Home = () => {
         title,
         tagline,
         cloudName: 'dqcixruub',
-        imagePublicID: 'social-image_qheplk',
+        imagePublicID: 'social-image_1_radtkk',
         titleFont: 'Lato',
         taglineFont: 'Lato',
         titleExtraConfig: '_bold',
