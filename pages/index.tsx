@@ -92,7 +92,7 @@ const Home = () => {
           <title>Home</title>
           <link rel="icon" href="/favicon.ico" />
         </Head>
-
+     
         <Box marginTop={20}>
         
           <Box display="flex" flexDirection="column" alignItems="center" marginX="auto">
