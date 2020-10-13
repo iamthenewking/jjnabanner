@@ -2,12 +2,13 @@ import React from 'react'
 import Head from 'next/head'
 import { saveAs } from 'file-saver'
 import getSharingImage from '@jlengstorf/get-share-image'
-import { ThemeProvider, CSSReset, Heading, Button, Input, FormControl, FormLabel, FormErrorMessage, FormHelperText, Box, Text } from "@chakra-ui/core";
+import { ThemeProvider, Select, CSSReset, Heading, Button, Input, FormControl, FormLabel, FormErrorMessage, FormHelperText, Box, Text } from "@chakra-ui/core";
 import { customTheme } from '../utils/theme';
 
 const Home = () => {
 
   const [title, setTitle] = React.useState('')
+  const [imagePublicID, setImagePublicID] = React.useState('')
   const [tagline, setTagline] = React.useState('')
   const [loading, setIsLoading] = React.useState(false)
   const [success, setSuccess] = React.useState(false)
@@ -47,7 +48,7 @@ const Home = () => {
         title,
         tagline,
         cloudName: 'dqcixruub',
-        imagePublicID: 'social-image_qheplk',
+        imagePublicID,
         titleFont: 'Lato',
         taglineFont: 'Lato',
         titleExtraConfig: '_bold',
@@ -108,8 +109,24 @@ const Home = () => {
                   <FormHelperText id="tagline-helper-text">A short tagline describing the blog post.</FormHelperText>
                 </FormControl>
               </Box>
+
               <Box display="flex" justifyContent="center" marginTop={5}>
-                <Button marginTop={2} isLoading={loading} onClick={handleFormSubmit}>Generate image</Button>
+              <Select placeholder="Select option"  size="sm"  value={imagePublicID} onChange={(e) => setImagePublicID(e.target.value)}  >
+                  <option value="social-image_1_radtkk">JNA orange</option>
+                  <option value="social-image_fhupvj">JNA yellow</option>
+                  <option value="social-image_srrx12">Xfinity</option>
+                 
+              </Select>
+              </Box>
+               
+              <Box display="flex" justifyContent="center" marginTop={5}>
+             
+             
+                             
+                             
+                
+                
+                  <Button marginTop={2} isLoading={loading} onClick={handleFormSubmit}>Generate image</Button>
               </Box>
               <Text marginTop={2} color="tomato" textAlign="center">{error}</Text>
             </FormControl>
