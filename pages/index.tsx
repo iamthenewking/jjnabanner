@@ -115,6 +115,7 @@ const Home = () => {
                   <option value="social-image_1_radtkk">JNA orange</option>
                   <option value="social-image_fhupvj">JNA yellow</option>
                   <option value="social-image_srrx12">Xfinity</option>
+                <option value="social-medicare_dvtv0x">Medicare</option>
                   <option value="social-image_1_rnkp0q">Home Alarm</option>
                  
               </Select>
