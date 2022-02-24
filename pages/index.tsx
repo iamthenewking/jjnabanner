@@ -58,7 +58,7 @@ const Home = () => {
         taglineTopOffset: 210,
         textAreaWidth: 389,
         textLeftOffset: 216,
-        textColor: 'ffffff',
+        textColor: '111827',
         titleFontSize: 32,
         taglineFontSize: 20,
       });
