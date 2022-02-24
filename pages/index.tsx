@@ -112,11 +112,9 @@ const Home = () => {
 
               <Box display="flex" justifyContent="center" marginTop={5}>
               <Select placeholder="Select option"  size="sm"  value={imagePublicID} onChange={(e) => setImagePublicID(e.target.value)}  >
-                  <option value="social-image_1_radtkk">JNA orange</option>
+                  <option value="ezgif-1-74a6ffce4a_aganhd">Blog Banner</option>
                   <option value="social-image_fhupvj">JNA yellow</option>
-                  <option value="social-image_srrx12">Xfinity</option>
-                <option value="social-medicare_dvtv0x">Medicare</option>
-                  <option value="social-image_1_rnkp0q">Home Alarm</option>
+                 
                  
               </Select>
               </Box>
